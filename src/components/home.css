@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+   
   height: calc(100vh - 70px);
   background-image: url("https://img.freepik.com/free-photo/web-design-concept-3d-rendering_72104-3665.jpg?w=2000");
 
@@ -11,6 +12,7 @@
   background-repeat: no-repeat;
 }
 .h1-main{
+
     margin-top: 100px;
     font-size:80px;
     color:#7777;
@@ -18,4 +20,23 @@
 .h1-sub{
     color:#777;
   margin-top: 10px;
+}
+
+@media only screen and (max-width:1000px){
+  .h1-main{
+    font-size: 60px;
+  }
+  
+}
+@media only screen and (max-width:740px){
+  .h1-main{
+    font-size: 40px;
+  }
+  
+}
+@media only screen and (max-width:500px){
+  .h1-main{
+    font-size: 30px;
+  }
+  
 }
