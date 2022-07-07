@@ -37,13 +37,13 @@ function App() {
   <Routes>
     <Route path='/' element={<Intro/>}/>
   <Route path='/home' element={ 
-    // user ?
+    user ?
      <Home/> 
-    //  : <Navigate to='/login'/>
+     : <Navigate to='/login'/>
      }/>
   <Route path='/login' element={
-    // user ?
-    //  <Navigate to='/home'/> :
+    user ?
+     <Navigate to='/home'/> :
      <Login/>
      }/>  
     
